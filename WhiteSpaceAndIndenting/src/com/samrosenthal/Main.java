@@ -15,6 +15,6 @@ public class Main {
 
         int anotherVariable = 5 ; myVariable--; System.out.println("this is another one ");
 
-        
+
     }
 }

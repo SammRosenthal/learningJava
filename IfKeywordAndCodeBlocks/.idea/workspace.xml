@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6429711-780e-422d-bd58-f5ed77ee9d87" name="Default Changelist" comment="" />
+    <list default="true" id="9f48b28a-ad2e-48fa-a292-431dd4c1f215" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteSpaceAndIndenting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteSpaceAndIndenting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteSpaceAndIndenting/src/com/samrosenthal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteSpaceAndIndenting/src/com/samrosenthal/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/samrosenthal/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -44,10 +48,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551121606003" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +71,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.samrosenthal.Main" />
-      <module name="WhiteSpaceAndIndenting" />
+      <module name="IfKeywordAndCodeBlocks" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -78,16 +85,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6429711-780e-422d-bd58-f5ed77ee9d87" name="Default Changelist" comment="" />
-      <created>1551120407955</created>
+      <changelist id="9f48b28a-ad2e-48fa-a292-431dd4c1f215" name="Default Changelist" comment="" />
+      <created>1551120982286</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551120407955</updated>
+      <updated>1551120982286</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -146,8 +154,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/samrosenthal/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
