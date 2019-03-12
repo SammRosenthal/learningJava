@@ -24,9 +24,11 @@ public class Main {
 //          doesnt work
 //        int savedFinalScore = finalScore;
 
+//
+//        displayHighScorePosition("Sam Rosenthal", 10);
+//        System.out.println(calculateHighScorePosition(700));
 
-        displayHighScorePosition("Sam Rosenthal", 10);
-        System.out.println(calculateHighScorePosition(700));
+        printConversion(5.0);
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -56,8 +58,18 @@ public class Main {
             return 2;
         } else if (score >= 100) {
             return 3;
+        }
+
+        return 4;
+    }
+
+    public static void printConversion(double kilometersPerHour) {
+        double milesPerHour = kilometersPerHour / 1.609;
+
+        if (kilometersPerHour < 0) {
+            System.out.println("Invalid Value");
         } else {
-            return 4;
+            System.out.println(kilometersPerHour + " km/h = " + Math.round(milesPerHour) + " mi/h");
         }
     }
 }
