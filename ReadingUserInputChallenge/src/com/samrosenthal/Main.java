@@ -17,12 +17,13 @@ public class Main {
 
             if (validNumber) {
                 sum += currentNumber;
+                numbersEntered++;
 
             } else {
-                System.out.println();
+                System.out.println("That is an invalid number.");
             }
 
-            numbersEntered++;
+
         }
 
         System.out.println("The sum of your numbers is " + sum + ".");
