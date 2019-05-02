@@ -13,17 +13,16 @@ public class Main {
         while (numbersEntered < 11) {
             System.out.println("Enter number #" + numbersEntered + ":");
             boolean validNumber = scanner.hasNextInt();
-            int currentNumber = scanner.nextInt();
 
             if (validNumber) {
+                int currentNumber = scanner.nextInt();
                 sum += currentNumber;
                 numbersEntered++;
-
             } else {
                 System.out.println("That is an invalid number.");
             }
 
-
+            scanner.nextLine();
         }
 
         System.out.println("The sum of your numbers is " + sum + ".");
